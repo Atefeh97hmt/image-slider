@@ -1,0 +1,45 @@
+﻿body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3f3ff;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    padding: unset;
+}
+
+.navigation li {
+    list-style: none;  
+padding: 5px;
+cursor: pointer;
+
+}
+.navigation li img {
+  width: 250px;
+  height: 150px;
+  border: 5px solid #006685;
+
+}
+    .main-image-container{
+        width: auto;
+        height: 600px;
+        position: relative;
+        border: 5px solid #005485;
+   }
+    .main-image{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        object-fit: cover;
+    }
